@@ -1,0 +1,5 @@
+{
+  "name": "trava-pastas",
+  "owner": { "name": "djalmomm-lab" },
+  "plugins": [{ "name": "trava-pastas", "source": "./" }]
+}

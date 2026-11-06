@@ -1,0 +1,19 @@
+{
+  "name": "trava-pastas",
+  "version": "0.1.0",
+  "description": "Impede o Claude de apagar, mover ou alterar pastas que você protege, e de apagar arquivos de vez sem passar pela Lixeira",
+  "userConfig": {
+    "pastas": {
+      "type": "string",
+      "title": "Pastas e arquivos protegidos",
+      "description": "Caminhos (ou trechos de caminho) separados por ponto e vírgula. Ex.: C:/Users/voce/documentos/contratos; fotos-familia; backup-2026.zip",
+      "default": ""
+    },
+    "bloquearExclusao": {
+      "type": "boolean",
+      "title": "Bloquear exclusão permanente",
+      "description": "Bloqueia rm, del, Remove-Item e afins fora de pastas temporárias (o Claude passa a usar a Lixeira)",
+      "default": true
+    }
+  }
+}
